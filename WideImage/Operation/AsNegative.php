@@ -29,11 +29,12 @@
 	 */
 	class WideImage_Operation_AsNegative
 	{
+
 		/**
-		 * Returns a greyscale copy of an image
+		 * @param $image
 		 *
-		 * @param WideImage_Image $image
-		 * @return WideImage_Image
+		 * @return mixed
+		 * @throws WideImage_GDFunctionResultException
 		 */
 		function execute($image)
 		{

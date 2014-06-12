@@ -29,14 +29,14 @@
 	 */
 	class WideImage_Operation_ApplyMask
 	{
+
 		/**
-		 * Applies a mask on the copy of source image
+		 * @param     $image
+		 * @param     $mask
+		 * @param int $left
+		 * @param int $top
 		 *
-		 * @param WideImage_Image $image
-		 * @param WideImage_Image $mask
-		 * @param smart_coordinate $left
-		 * @param smart_coordinate $top
-		 * @return WideImage_Image
+		 * @return mixed
 		 */
 		function execute($image, $mask, $left = 0, $top = 0)
 		{
